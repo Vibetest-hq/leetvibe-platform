@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  leetvibe-backend:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - AZURE_OPENAI_API_KEY=${AZURE_OPENAI_API_KEY}
+    restart: unless-stopped
+    volumes:
+      - ./logs:/app/logs

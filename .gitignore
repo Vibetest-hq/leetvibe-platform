@@ -1,0 +1,79 @@
+# System files
+.bash_logout
+.bashrc
+.profile
+.zshrc
+.env
+.gitconfig
+.secrets/
+.ssh/
+.pki/
+.cache/
+.config/
+.local/
+.npm/
+.nvm/
+.logs/
+.browser_data_dir/
+sandbox.txt
+screenshots/
+upload/
+
+# Node modules
+node_modules/
+.pnpm-store/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp
+
